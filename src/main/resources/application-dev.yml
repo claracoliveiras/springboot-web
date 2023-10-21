@@ -1,0 +1,11 @@
+spring:
+  config:
+    name: dev
+  datasource:
+    url: jdbc:postgresql://containers-us-west-66.railway.app:6876/railway
+    username: postgres
+    password: f3AgKFBuQXGilaoTM940
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
